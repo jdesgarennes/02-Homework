@@ -1,0 +1,128 @@
+/* This section for vsariables  */
+:root {
+
+    --Textbox: gainsboro;
+    --FontSize: 24px;
+}
+
+/* END of section for variables  */
+
+/* SECTION for all of the styles for header and nav links going to use flexbox for alignment */
+header {
+background-color:rgb(179, 175, 166);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: baseline;
+align-items: flex-end;
+border: solid 3px;
+margin: 1% 0%;
+}
+
+
+
+.name {
+    font-weight: 700;
+    padding: 1%;
+    margin: 1%;
+    text-decoration: underline;
+    background-color: var(--Textbox);    
+}
+
+.links {
+    font-weight: 700;
+    padding: 1%;
+    margin: 1%;
+    font-size: 16px;
+    text-decoration: underline;
+    background-color: var(--Textbox);    
+}
+
+main{
+    
+    
+}
+/* This will be the About containiner in the main element */
+
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 700;
+    justify-content: stretch;
+    align-items: flex-start;  
+    
+}
+
+.about h1 {
+    border-right: black;
+    text-decoration: underline;
+    text-align: right;
+    font-size: var(--FontSize);
+    background-color: var(--Textbox);
+    padding: 1px;
+    border-right: solid 5px;
+    width: 15%;
+
+}
+
+.about p {
+    margin: 1%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    width: 60%
+}
+
+.about p img {
+    width:200px;
+    height:200px;
+}
+/* End of About container */
+
+/* begining of work Container */
+
+.work{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 700;
+    justify-content: stretch;
+    align-items: flex-start;  
+}
+
+.work h1{
+    border-right: black;
+    text-decoration: underline;
+    text-align: right;
+    font-size: var(--FontSize);
+    background-color: var(--Textbox);
+    padding: 1px;
+    border-right: solid 5px;
+    width: 15%;
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    width:60%;
+    gap: 10px;
+}
+
+ .project1{
+
+    width: 100%;
+
+}
+.projects{
+    
+    width:45%;
+}
+
+  #cr{
+    width:100%;
+   
+}
+
