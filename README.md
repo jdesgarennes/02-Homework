@@ -9,4 +9,5 @@ In addition, The page has a brief "about me section" and contact info.
 In this Assignment I experimented with different uses of flex boxes, for arrangement.
 The use of variables in the CSS code,  Transforms and flexable arrangements.
 
-! [image of site] (/Assets/images/sc.jpg)
+
+![plot](./Assets/images/sc.jpg)
